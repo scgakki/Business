@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/product/product",
     "pages/index/index",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
@@ -12,14 +13,46 @@
     "pages/openapi/callback/callback",
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
-    "pages/im/room/room"
+    "pages/im/room/room",
+    "pages/purchase/caigou",
+    "pages/person/person",
+    "pages/detail/detail",
+    "pages/edit/edit",
+    "pages/order/order",
+    "pages/publish/publish",
+    "pages/service/service",
+    "pages/info/info",
+    "pages/bank/bank"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "Business",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#3cc51f",
+    "list": [
+      {
+        "pagePath": "pages/product/product",
+        "iconPath": "images/icon_home.png",
+        "selectedIconPath": "images/icon_home_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/purchase/caigou",
+        "iconPath": "images/icon_cate.png",
+        "selectedIconPath": "images/icon_cate_selected.png",
+        "text": "采购"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "iconPath": "images/icon_member.png",
+        "selectedIconPath": "images/icon_member_selected.png",
+        "text": "我"
+      }
+    ]
+  }
 }
